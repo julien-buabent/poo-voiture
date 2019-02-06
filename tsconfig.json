@@ -1,0 +1,17 @@
+{
+  "compilerOptions":{
+    "target":"es5",
+    "pretty":true,
+    "outDir": "./build",
+    "module": "amd",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es5", "DOM"]
+  },
+  "files":[
+    "app.ts",
+    "class_vehicule.ts",
+    "class_voiture.ts",
+    "class_camion.ts",
+    "class_moto.ts"
+  ]
+}

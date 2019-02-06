@@ -1,0 +1,103 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script data-main="build/app" src="node_modules/requirejs/require.js"></script>
+
+
+  <style>
+    div{
+      border:solid 1px black;
+      position:relative;
+      float:left;
+      width:33%;
+      margin:2px;
+    }
+    table{
+      width:100%;
+    }
+    table td.course{
+      width:100%;
+    }
+  </style>
+</head>
+
+<body>
+  Mini simulation course auto : Typescript et POO
+  <hr />
+
+  <div id="joueur_1">
+    Joueur 1 :
+    <input type="text" value="Pierre" />
+    <br />
+    Type de véhicule :
+    <select>
+      <option></option>
+      <option value="moto" selected>Moto</option>
+      <option value="voiture">Voiture</option>
+      <option value="camion">Camion</option>
+    </select>
+  </div>
+
+  <div id="joueur_2">
+    Joueur 1 :
+    <input type="text" value="Paul" />
+    <br />
+    Type de véhicule :
+    <select>
+      <option></option>
+      <option value="moto">Moto</option>
+      <option value="voiture" selected>Voiture</option>
+      <option value="camion">Camion</option>
+    </select>
+  </div>
+
+  <div id="joueur_3">
+    Joueur 1 :
+    <input type="text" value="Jacques" />
+    <br />
+    Type de véhicule :
+    <select>
+      <option></option>
+      <option value="moto">Moto</option>
+      <option value="voiture">Voiture</option>
+      <option value="camion" selected>Camion</option>
+    </select>
+  </div>
+
+  <input type="button" id="lance_la_course" value="Go !" />
+
+  <table border=1>
+    <tr>
+      <th>Nom</th>
+      <th>Type</th>
+      <th>Réservoir</th>
+      <th>Kilomètres</th>
+      <th>Course</th>
+    </tr>
+
+    <tr id="player_0">
+      <td class="nom"></td>
+      <td class="type"></td>
+      <td class="reservoir"></td>
+      <td class="distance"></td>
+      <td class="course"></td>
+    </tr>
+    <tr id="player_1">
+      <td class="nom"></td>
+      <td class="type"></td>
+      <td class="reservoir"></td>
+      <td class="distance"></td>
+      <td class="course"></td>
+    </tr>
+    <tr id="player_2">
+      <td class="nom"></td>
+      <td class="type"></td>
+      <td class="reservoir"></td>
+      <td class="distance"></td>
+      <td class="course"></td>
+    </tr>
+
+</body>
+
+</html>
